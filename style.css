@@ -1,0 +1,155 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px; 
+}
+
+nav {
+  background-color: #e0e0e0;
+}
+
+.image_data {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 800px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 100px;
+  font-family: 'Pacifico', cursive;
+  color: rgb(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+/*.quote {
+  width: 100%;
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 145px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+}
+
+.quote hr {
+  background-color: tomato;
+  height: 2px;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  width: 100%;
+  max-width: 550px;
+}*/
+
+.content {
+  display: flex;
+  /*flex-direction: column;*/
+  /*flex-wrap: wrap;*/
+  /*align-content: stretch;*/
+  justify-content: center;
+  /*align-items: center;*/
+  width: 100%;
+  background-color: #eaeaea;
+}
+
+.img2 {
+  float: right;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  width: 100%; 
+  max-width: 450px;
+  height: auto;
+  border: 5px solid grey;
+}
+
+.about {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 70%; 
+  height: auto;
+}
+
+.content .about p {
+  line-height: 35px;
+
+}
+
+.content2 {
+  display: flex;
+  /*flex-direction: column;*/
+/*  flex-wrap: wrap;*/
+  /*align-content: stretch;*/
+  justify-content: center;
+  /*align-items: center;*/
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.img3 {
+  float: left;
+  margin-right: 60px;
+  width: 100%;
+  max-width: 450px; 
+  height: auto;
+  border: 5px solid grey;
+}
+
+.contact {
+  width: 100%;
+  max-width: 70%;
+  height: auto;
+}
+
+.content2 .contact p {
+  line-height: 35px;
+
+}
+
+.content3 {
+  display: flex;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  /*align-content: stretch;*/
+  justify-content: center;
+  /*align-items: center;*/
+  width: 100%;
+  background-color: #eaeaea;
+  margin-top: 10px;
+}
+
+.img4 {
+  float: right;
+  margin-left: 60px;
+  width: 100%;
+  max-width: 450px; 
+  height: auto;
+  border: 5px solid grey;
+}
+
+.aim {
+  margin-top: 100px;
+  width: 100%;
+  max-width: 70%;
+  height: auto;
+}
+
+.content3 .aim p {
+line-height: 35px;
+
+}
